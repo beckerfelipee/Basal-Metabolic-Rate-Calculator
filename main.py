@@ -6,7 +6,7 @@ sleep(0.5)
 print("\n=============== Basal Metabolic Rate Test ===============\n")
 
 sleep(1)
-print("\nThis program uses the Harris-Benedict formula to estimate your Basal Metabolic Rate (BMR),\n"
+print("\nThis program uses the revised Harris–Benedict formula (1990) to estimate your Basal Metabolic Rate (BMR),\n"
       "which represents the minimum daily energy your body needs at rest. \n")
 
 sleep(2)
