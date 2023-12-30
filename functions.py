@@ -106,18 +106,18 @@ def get_person_info():
 
 def calculate_bmr(weight, height, age, sex):
     # Formulas:
-    # BMR Male: 66 + (13,7p) + (5A) - (6,8I)
-    # BMR Female: 655 + (9,6p) + (1,8A) - (4,7I)
+    # BMR Male: (10p) + (6.25A) - (5I) + 5
+    # BMR Female: (10p) + (6.25A) - (5I) - 161
 
-    # Convert Height to centimeters
+    # Convert Height in Meters to centimeters
     height = height * 100
 
     if sex == "male":
-        result = 66 + (weight * 13.7) + (height * 5) - (age * 6.8)
+        result = (weight * 10) + (height * 6.25) - (age * 5) + 5
     else:
-        result = 655 + (weight * 9.6) + (height * 1.8) - (age * 4.7)
+        result = (weight * 10) + (height * 6.25) - (age * 5) - 161
 
-    result = round(result) # convert to integer
+    result = round(result)  # convert to integer
 
     return result
 
@@ -135,4 +135,3 @@ def export_to_txt(name, weight, height, age, bmr, filename="default"):
         file.write("\n\n=======================================================")
 
     print(f"\nResults saved to '{filename}'!")
-
