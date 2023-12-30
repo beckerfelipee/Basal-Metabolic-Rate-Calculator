@@ -7,7 +7,7 @@ This is a Python program that utilizes the renowned Harris-Benedict formula revi
 2. Clone this repository:
 
  ```bash
- git clone https://github.com/beckerfelipee/Basal-Metabolic-Rate-Calculator.git
+git clone https://github.com/beckerfelipee/Basal-Metabolic-Rate-Calculator.git
  ```
 
 3. Navigate to the project directory:
@@ -21,6 +21,14 @@ cd Basal-Metabolic-Rate-Calculator
 ```bash
 python main.py
  ```
+### Or
+
+1. You can download and execute:
+
+ ```bash
+BMR Calculator.exe
+ ```
+
 # Harris-Benedict Formula
 This program uses the revised Harris–Benedict formula developed by [Mifflin and St Jeor in 1990](https://www.sciencedirect.com/science/article/abs/pii/S0002916523166986?via%3Dihub) to calculate Basal Metabolic Rate (BMR) – the amount of calories the body burns daily at rest. Originally formulated by [Harris and Benedict in 1918](https://www.pnas.org/doi/abs/10.1073/pnas.4.12.370), the 1990 revision adjusts parameters to provide more accurate estimates of resting energy expenditure, taking into account factors such as age, weight, height, and biological sex.
 
