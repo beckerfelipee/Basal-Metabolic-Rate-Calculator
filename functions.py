@@ -12,7 +12,7 @@ def clear(sec):
 
 def safe_input(description, convert_type="float", min_range="none", max_range="none"):
 
-    # description: phrase that will appear in input("here")
+    # description: phrase that will appear in input parameter
     # convert type: must be "float" or "int"
     # min_range: can be "none" or a string format number (example: "10")
     # max_range: can be "none" or a string format number (example: "10")
